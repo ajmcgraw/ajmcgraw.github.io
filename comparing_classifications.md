@@ -4,5 +4,5 @@ layout: default
 
 ### Comparing Supervised Classification Techniques Using Google Earth Engine
 
-![poster](mcgraw_poster.pdf)
+![poster](mcgraw_poster.jpg)
  
