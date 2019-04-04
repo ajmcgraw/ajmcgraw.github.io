@@ -19,6 +19,21 @@ layout: default
 1988 Random Forest
 ![1998Cart](images_website/1988rf.jpg)
 
+2001 CART
+![2001Cart](images_website/2001cart.jpg)
+
+2001 Minimum Distance
+![2001Cart](images_website/2001md.jpg)
+
+2001 Naive Bayes
+![2001Cart](images_website/2001nb.jpg)
+
+2001 Support Vector Machine
+![2001Cart](images_website/2001svm.jpg)
+
+1988 Random Forest
+![2001Cart](images_website/2001rf.jpg)
+
 
 
 
