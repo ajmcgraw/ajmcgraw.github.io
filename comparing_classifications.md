@@ -5,7 +5,7 @@ layout: default
 #### Comparing Supervised Learning Techniques Using Google Earth Engine
 
 1988 CART
-![1998Cart](images_website/1988cart.jpg =250x250)
+![1998Cart](images_website/1988cart.jpg | width = 250)
 
 1988 Minimum Distance
 ![1998Cart](images_website/1988md.jpg =250x250)
