@@ -2,7 +2,12 @@
 layout: default
 ---
 
-#### Comparing Supervised Classification Techniques Using Google Earth Engine
+#### Comparing Supervised Learning Techniques Using Google Earth Engine
+
+1988 CART
+![1998Cart](images_website/1988cart.jpg)
+
+
 
 ![poster](mcgraw_poster.jpg)
  
