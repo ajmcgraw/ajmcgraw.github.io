@@ -17,11 +17,15 @@ At the beginning of the MGIS program we did a StrengthsFinder Exercise. Four of 
 ## EDUCATION
 
 UNIVERSITY OF MINNESOTA
+
 Master of GIS
+
 Expected Graduation May 2019
 
 HAMLINE UNIVERSITY
+
 Bachelor of Arts, Major in Anthropology, Minor in Religion
+
 May 2012
 
 ## PROFESSIONAL HISTORY
