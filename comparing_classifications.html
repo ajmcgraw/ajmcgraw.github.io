@@ -5,7 +5,48 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!doctype html>
-
+<head>  <style>
+    .image {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s;
+      background-color: #56ca73;
+    }
+    
+    .image:hover .overlay {
+      opacity: .4;
+    }
+    
+    .text {
+      color: rgb(182, 175, 175);
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    </style>
+    </head> 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -71,15 +112,17 @@
                     <img src="images_website/nb_01.png" class="rounded float-right" width = '20%' alt="responsive image">
                 </div>
             <div class="container-fluid">
-                    2014 Classification Images
-                    </div>
-                <div class = "img-fluid"> 
-                    <img src="images_website/cart_14.png" class="rounded float-left" width="20%">
+            </div>
+                    2014 Classification Images 
+                    <div class="image">
+                        <img src="images_website/cart_14.png" class="rounded float-left" width="20%"> 
+                    <div class="overlay"> <div class='text'>CART</div> </div> </div>
+
+
                     <img src="images_website/svm_14.png" class="rounded float-right" width = '20%'>
                     <img src="images_website/md_14.png" class="rounded float-left" width="20%">
                     <img src="images_website/rf_14.png" class="rounded float-right" width = '20%'>
                     <img src="images_website/nb_14.png" class="rounded float-right" width = '20%'>
-                </div>
 
             <div class = 'container-fluid'>
                 Poster
