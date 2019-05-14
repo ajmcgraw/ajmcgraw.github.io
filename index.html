@@ -11,17 +11,27 @@
   body {
     position: relative; 
   }
-  #AboutMe {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(200, 200, 200, 0.718);}
+  #AboutMe {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
   #DigitizeIt {padding-top:50px;height:120;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
-  #ComparingClassifications {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(200, 200, 200, 0.718);}
+  #ComparingClassifications {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
   #SkiMap {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
-  #TrafficStops {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(200, 200, 200, 0.718);}
+  #TrafficStops {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
   #PrecisionContour {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
-  #Resume {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(200, 200, 200, 0.718);}
+  #Resume {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
   #GitHub {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
   .spacer {
     margin-bottom: 40px; /* define margin as you see fit */
 }
+    .row-header {
+    background-color:#c5cfd4;
+    height: 150px;
+    text-align:center;
+}
+  .centertext {
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -57,11 +67,9 @@
 </nav>    
 
 <div id="AboutMe" class="container-fluid">
-    <div class="row spacer">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-10">
-  <h2>About Me</h2></div></div>
-  <div class="row">
+    <div class="row spacer row-header">
+  <h2 class="centertext">About Me</h2></div>
+  <div class="row spacer">
     <div class="col-sm-2"></div>
     <div class="col-sm-3"><img src="images_website/annajm.jpg" class="img-circle" width="70%" alt = "Cinque Terre"></div>
     <div class="col-sm-5">
@@ -72,17 +80,13 @@
 </div>
     <div class="col-sm-2"></div>
 </div> 
-<div class="row spacer">
-               
-      </div>
 </div>
 
 <div id="DigitizeIt" class="container-fluid">
+        <div class="row spacer row-header">
+        
+        <h2>Digitize It: An Online Shapefile Editor</h2></div> 
         <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-        <h2>Digitize It: An Online Shapefile Editor</h2></div> </div>
-        <div class="row">
             <div class="col-sm-2"></div>
               <div class="col-sm-3">
                   <p>1. Description</p>
@@ -95,18 +99,15 @@
                   <img src="images_website/digitize_it.PNG" class="rounded float-right" width="100%" alt = 'responsive image'>
               </div>
           </div>
-          <div class="row spacer">
-            
-              </div>
+
       </div>
 
 
 <div id="ComparingClassifications" class="container-fluid">
-        <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-    <h2>Comparing Classification Techniques Using Google Earth Engine</h2></div></div>
-    <div class="row">
+        <div class="row spacer row-header">
+         
+    <h2>Comparing Classification Techniques Using Google Earth Engine</h2></div>
+    <div class="row spacer">
         <div class="col-sm-2"></div>
             <div class="col-sm-3">
                 <p>1. Description</p>
@@ -119,17 +120,14 @@
                 <img src="images_website/mcgrawPosterFinal.jpg" class="rounded float-right" width="100%" alt = 'responsive image'>
             </div>
         </div>
-        <div class="row spacer">
-                
-              </div>
+
     </div>
 
     <div id="SkiMap" class="container-fluid">
+            <div class="row spacer row-header">
+                  
+            <h2>Northeastern Minnesota Ski Map</h2></div>
             <div class="row spacer">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-10">
-            <h2>Northeastern Minnesota Ski Map</h2></div></div>
-            <div class="row">
                 <div class="col-sm-2"></div>
                     <div class="col-sm-3">
                         <p>1. Description</p>
@@ -142,17 +140,14 @@
                         <img src="images_website/nefinal_fixedLegend.png" class="rounded float-right" width="100%" alt = 'responsive image'>
                     </div>
                 </div>
-                <div class="row spacer">
-                        
-                      </div>
+
             </div>
 
 <div id="TrafficStops" class="container-fluid">
-        <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-            <h2>Twin Cities Traffic Stops</h2></div></div>
-            <div class="row">
+        <div class="row spacer row-header">
+
+            <h2>Twin Cities Traffic Stops</h2></div>
+            <div class="row spacer">
                 <div class="col-sm-2"></div>
                   <div class="col-sm-3">
                       <p>1. Description</p>
@@ -164,17 +159,14 @@
                       <img src="images_website/traffic_stops.PNG" class="rounded float-right" width="100%" alt = 'responsive image'>
                   </div>
               </div>
-              <div class="row spacer">
-                    
-                  </div>
+
           </div>
 
 <div id="PrecisionContour" class="container-fluid">
-        <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-    <h2>Work Project</h2></div></div>
-    <div class="row">
+        <div class="row spacer row-header">
+
+    <h2>Work Project</h2></div>
+    <div class="row spacer">
         <div class="col-sm-2"></div>
             <div class="col-sm-3">
                 <p>1. Description</p>
@@ -185,29 +177,21 @@
                 <img src="images_website/precision_contour.png" class="rounded float-right" width="100%" alt = 'responsive image'>
             </div>
         </div>
-        <div class="row spacer">
-            
-              </div>
+
     </div>
 
 <div id="Resume" class="container-fluid">
-        <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-    <h2>Resume</h2></div></div>
-    <div class="row spacer">
-            
-          </div>
+        <div class="row spacer row-header">
+
+    <h2>Resume</h2></div>
+
 </div>
 
 <div id="GitHub" class="container-fluid">
-        <div class="row spacer">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10">
-    <h2>GitHub</h2></div></div>
-    <div class="row spacer">
-            
-          </div>
+        <div class="row spacer row-header">
+
+    <h2>GitHub</h2></div>
+
 </div>
 
 </body>
