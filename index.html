@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   body {
+    padding-top: 2%;
     position: relative; 
   }
   #AboutMe {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
@@ -23,13 +24,36 @@
     margin-bottom: 40px; /* define margin as you see fit */
 }
     .row-header {
-    background-color:#c5cfd4;
+    background-color:rgba(214, 214, 214);
     height: 150px;
     text-align:center;
 }
   .centertext {
-  text-transform: uppercase;
   margin-top: 2em;
+}
+    .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
   </style>
@@ -43,7 +67,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Anna J. McGraw</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -66,12 +89,21 @@
   </div>
 </nav>    
 
+<div class='container'>
+    <img src='images_website/top_image1.jpg' style= 'width:100%'>
+<div class ='centered'> <h1> Anna J. McGraw </h1> 
+<h1>Portfolio</h1>
+</div>
+</div>
+
 <div id="AboutMe" class="container-fluid">
     <div class="row spacer row-header">
   <h2 class="centertext">About Me</h2></div>
   <div class="row spacer">
     <div class="col-sm-2"></div>
-    <div class="col-sm-3"><img src="images_website/annajm.jpg" class="img-circle" width="70%" alt = "Cinque Terre"></div>
+    <div class="col-sm-3"><div class="text-center"><img src="images_website/annajm.jpg" class="img-circle" width="70%" alt = "Cinque Terre">
+    </div>
+    </div>
     <div class="col-sm-5">
   <p class = 'paragraph-card'> I completed my B.A. in Anthropology with a concentration in Biological Archaeology at Hamline University in May of 2012. After graduation I worked as an Archaeological Technician and Field Director. During this time, I waded through swamps, and fields of poison ivy and briar in efforts to locate archaeological sites. I mapped these sites on a Trimble GPS and then later mapped them all by hand. After doing this for a couple of years, I realized that interpreting maps and making new ones was the part of the job I enjoyed the most.</p>
     <p class = 'paragraph-card'>I have always been interested in technology, the environment, and maps. GIS is a perfect marriage of these three interests. I am now a student at the University of Minnesota pursuing my Master of Geographic Information Science, with an expected graduation of May 2019. While here my goal is to take a wide variety of GIS classes to promote a well-rounded education and understanding of Geographic Information Science.</p>
@@ -85,7 +117,7 @@
 <div id="DigitizeIt" class="container-fluid">
         <div class="row spacer row-header">
         
-        <h2>Digitize It: An Online Shapefile Editor</h2></div> 
+        <h2 class="centertext">Digitize It: An Online Shapefile Editor</h2></div> 
         <div class="row spacer">
             <div class="col-sm-2"></div>
               <div class="col-sm-3">
@@ -96,7 +128,7 @@
               </div>
               <div class="col-sm-5">
               <div class="col-sm-2"></div>
-                  <img src="images_website/digitize_it.PNG" class="rounded float-right" width="100%" alt = 'responsive image'>
+                <a href="https://digitizeit.herokuapp.com/"><img src="images_website/digitize_it.PNG" class="rounded float-right" width="100%" alt = 'responsive image'></a>
               </div>
           </div>
 
@@ -106,7 +138,7 @@
 <div id="ComparingClassifications" class="container-fluid">
         <div class="row spacer row-header">
          
-    <h2>Comparing Classification Techniques Using Google Earth Engine</h2></div>
+    <h2 class="centertext">Comparing Classification Techniques Using Google Earth Engine</h2></div>
     <div class="row spacer">
         <div class="col-sm-2"></div>
             <div class="col-sm-3">
@@ -117,7 +149,7 @@
             </div>
             <div class="col-sm-5">
             <div class="col-sm-2"></div>
-                <img src="images_website/mcgrawPosterFinal.jpg" class="rounded float-right" width="100%" alt = 'responsive image'>
+               <a href='comparing_classifications.html'> <img src="images_website/mcgrawPosterFinal.jpg" class="rounded float-right" width="100%" alt = 'responsive image'></a>
             </div>
         </div>
 
@@ -125,8 +157,7 @@
 
     <div id="SkiMap" class="container-fluid">
             <div class="row spacer row-header">
-                  
-            <h2>Northeastern Minnesota Ski Map</h2></div>
+            <h2 class="centertext">Northeastern Minnesota Ski Map</h2></div>
             <div class="row spacer">
                 <div class="col-sm-2"></div>
                     <div class="col-sm-3">
@@ -137,7 +168,7 @@
                     </div>
                     <div class="col-sm-5">
                     <div class="col-sm-2"></div>
-                        <img src="images_website/nefinal_fixedLegend.png" class="rounded float-right" width="100%" alt = 'responsive image'>
+                        <a href= 'images_website/nefinal_fixedLegend.png'> <img src="images_website/nefinal_fixedLegend.png" class="rounded float-right" width="100%" alt = 'responsive image'></a>
                     </div>
                 </div>
 
@@ -146,7 +177,7 @@
 <div id="TrafficStops" class="container-fluid">
         <div class="row spacer row-header">
 
-            <h2>Twin Cities Traffic Stops</h2></div>
+            <h2 class="centertext">Twin Cities Traffic Stops</h2></div>
             <div class="row spacer">
                 <div class="col-sm-2"></div>
                   <div class="col-sm-3">
@@ -156,7 +187,7 @@
                   </div>
                   <div class="col-sm-5">
                   <div class="col-sm-2"></div>
-                      <img src="images_website/traffic_stops.PNG" class="rounded float-right" width="100%" alt = 'responsive image'>
+                      <a href= 'https://8501fall2017.carto.com/builder/bd183a1c-a6d9-454d-857e-eea9cc99c876/embed'> <img src="images_website/traffic_stops.PNG" class="rounded float-right" width="100%" alt = 'responsive image'></a>
                   </div>
               </div>
 
@@ -165,7 +196,7 @@
 <div id="PrecisionContour" class="container-fluid">
         <div class="row spacer row-header">
 
-    <h2>Work Project</h2></div>
+    <h2 class="centertext">Work Project</h2></div>
     <div class="row spacer">
         <div class="col-sm-2"></div>
             <div class="col-sm-3">
@@ -183,14 +214,14 @@
 <div id="Resume" class="container-fluid">
         <div class="row spacer row-header">
 
-    <h2>Resume</h2></div>
+    <h2 class="centertext">Resume</h2></div>
 
 </div>
 
 <div id="GitHub" class="container-fluid">
         <div class="row spacer row-header">
 
-    <h2>GitHub</h2></div>
+    <h2 class="centertext">GitHub</h2></div>
 
 </div>
 
