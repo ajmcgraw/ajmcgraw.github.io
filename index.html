@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   body {
-    padding-top: 2%;
+    padding-top: 3%;
     position: relative; 
   }
   #AboutMe {padding-top:50px;height:100;color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.718);}
@@ -55,6 +55,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.text-large {
+  font-size: 500%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    border-top: 1px solid #ccc;
+}
 
   </style>
 </head>
@@ -78,10 +86,9 @@
               <li><a href="#ComparingClassifications">Comparing Classification Techniques Using Google Earth Engine</a></li>
               <li><a href="#SkiMap">Northeastern Minnesota Ski Map</a></li>
               <li><a href="#TrafficStops">Twin Cities Traffic Stops</a></li>
-              <li><a href="#PrecisionContour">Work Projects</a></li>
+              <li><a href="#PrecisionContour">Precision Contour HD</a></li>
             </ul>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#GitHub">GitHub</a></li>
+            <li><a href="#Experience">Experience</a></li>
           </li>
         </ul>
       </div>
@@ -91,8 +98,8 @@
 
 <div class='container'>
     <img src='images_website/top_image1.jpg' style= 'width:100%'>
-<div class ='centered'> <h1> Anna J. McGraw </h1> 
-<h1>Portfolio</h1>
+<div class ='centered text-large'> Anna J. McGraw  
+<h2>GIS Portfolio</h2>
 </div>
 </div>
 
@@ -106,9 +113,8 @@
     </div>
     <div class="col-sm-5">
   <p class = 'paragraph-card'> I completed my B.A. in Anthropology with a concentration in Biological Archaeology at Hamline University in May of 2012. After graduation I worked as an Archaeological Technician and Field Director. During this time, I waded through swamps, and fields of poison ivy and briar in efforts to locate archaeological sites. I mapped these sites on a Trimble GPS and then later mapped them all by hand. After doing this for a couple of years, I realized that interpreting maps and making new ones was the part of the job I enjoyed the most.</p>
-    <p class = 'paragraph-card'>I have always been interested in technology, the environment, and maps. GIS is a perfect marriage of these three interests. I am now a student at the University of Minnesota pursuing my Master of Geographic Information Science, with an expected graduation of May 2019. While here my goal is to take a wide variety of GIS classes to promote a well-rounded education and understanding of Geographic Information Science.</p>
-    <p class = 'paragraph-card'>My professional interests include using GIS to view how humans interact with the environment, cartography, and using spatial analysis to solve a multitude of problems. In the long term, I’d like to get become a Certified GIS Professional (GISP) and eventually become a Project Management Professional (PMP).</p>
-    <p class = 'paragraph-card'>At the beginning of the MGIS program we did a StrengthsFinder Exercise. Four of my top five strengths were Learner, Achiever, Ideation, and Strategic. These strengths help describe what I would to like to do with GIS: continue to learn, problem solve, and recognize patterns.</p>
+    <p class = 'paragraph-card'>This realization led me into looking at the MGIS program at the University of Minnesota. I ended up going in 2017 and graduated in May of 2019. GIS ended up being the perfect combination of all of my interests, technology, the environment and lastly maps. During my time at the University of Minnesota I tried to explore as many different aspects of GIS as possible. I took classes in programming, cartography, databases and remote sensing. I learned Python, SQL, how to use ArcMap, and most importantly, how to be resourceful and learn something I did not know.</p>
+    <p class = 'paragraph-card'>In the future I hope to expand my programming skills in Python, SQL, JavaScript and work in GIS Development, a career where I could continue to push myself and learn new things every day. I am also intersected in data science, data analysis and database management. </p>
 </div>
     <div class="col-sm-2"></div>
 </div> 
@@ -120,16 +126,16 @@
         <h2 class="centertext">Digitize It: An Online Shapefile Editor</h2></div> 
         <div class="row spacer">
             <div class="col-sm-2"></div>
-              <div class="col-sm-3">
-                  <p>1. Description</p>
-                  <p>2. Why you did the project</p>
-                  <p>3. What you learned </p>
-                  <p>4. specific link to that modified geojson/shpfile thing on github</p>
+              <div class="col-sm-2">
+                  <p class = 'paragraph-card'>This project is an online shapefile editor, click on the picture to follow the link.</p>
+                      <p class = 'paragraph-card'>
+                        I made this website as a way to learn JavaScript, NodeJS, and to use different mapping API’s.  For this project I had to modify a script to convert Shapefiles into GeoJsons. I learned how to use multiple Mapping API’s such as Leaflet and Google, as well as exposing myself for the first time to Bootstrap, MongoDB, Express.js and Angular.js.
+                        </p>
               </div>
-              <div class="col-sm-5">
-              <div class="col-sm-2"></div>
+              <div class="col-sm-6">
                 <a href="https://digitizeit.herokuapp.com/"><img src="images_website/digitize_it.PNG" class="rounded float-right" width="100%" alt = 'responsive image'></a>
               </div>
+              <div class="col-sm-2"></div>
           </div>
 
       </div>
@@ -141,16 +147,16 @@
     <h2 class="centertext">Comparing Classification Techniques Using Google Earth Engine</h2></div>
     <div class="row spacer">
         <div class="col-sm-2"></div>
-            <div class="col-sm-3">
-                <p>1. Description</p>
-                <p>2. Link to comparing classifications</p>
-                <p>3. Link to the code on Google Earth Engine </p>
-                <p>4. Why the project was done/what skills it shows</p>
+            <div class="col-sm-2">
+                <p class='paragraph-card'>For this project I compared five different supervised learning techniques: Support Vector Machines, Classification and Regression Trees (CART), Minimum Distance, and Naives Bayes. </p>
+                <p class='paragraph-card'>I wrote the code for this using Google Earth Engine’s web-based JavaScript Intregrated Development Environment(IDE). I also translated the code into python and put it in an interactive Jupyter Notebook so that any image for the Mississippi Delta can be classified. </p>
+                <p class='paragraph-card'>Click <a href=https://code.earthengine.google.com/25ac9ccec682d004293e95da7681191a> here</a> to see the code on Google Earth Engine. </p>
+                <p class= 'paragraph-card'>Click on the image to see all the different years classified.</p>
             </div>
-            <div class="col-sm-5">
-            <div class="col-sm-2"></div>
+            <div class="col-sm-6">
                <a href='comparing_classifications.html'> <img src="images_website/mcgrawPosterFinal.jpg" class="rounded float-right" width="100%" alt = 'responsive image'></a>
             </div>
+            <div class="col-sm-2"></div>
         </div>
 
     </div>
@@ -160,16 +166,14 @@
             <h2 class="centertext">Northeastern Minnesota Ski Map</h2></div>
             <div class="row spacer">
                 <div class="col-sm-2"></div>
-                    <div class="col-sm-3">
-                        <p>1. Description</p>
-                        <p>2. Why this theme </p>
-                        <p>3. What the project was for</p>
-                        <p>4. what the colors mean, link to other maps?</p>
+                    <div class="col-sm-2">
+                        <p class = 'paragraph-card'>For a class during the MGIS program, we were asked to make a road map of Northeastern Minnesota. We could make a regular road map or choose any theme we wanted. Since I had just completed a cross-country ski race, the Kortelopet in Hayward, WI, and spent much of my winter checking ski reports on <a href='https://www.skinnyski.com/'> SkinnySki.com</a>, I decided to make a cross country ski themed map.</p>
+                        <p class = 'paragraph-card'>For this map I used colors normally present in a downhill ski map, red transparent for off limits (the area this map doesn’t cover), green circles for Beginner (State Highway), blue squares for Intermediate (U.S. Highways) and black diamonds for Advanced (Interstates).</p>
                     </div>
-                    <div class="col-sm-5">
-                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6">
                         <a href= 'images_website/nefinal_fixedLegend.png'> <img src="images_website/nefinal_fixedLegend.png" class="rounded float-right" width="100%" alt = 'responsive image'></a>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
 
             </div>
@@ -180,15 +184,16 @@
             <h2 class="centertext">Twin Cities Traffic Stops</h2></div>
             <div class="row spacer">
                 <div class="col-sm-2"></div>
-                  <div class="col-sm-3">
-                      <p>1. Description</p>
-                      <p>2. What you learned </p>
-                      <p>3. Your primary contributions</p>
-                  </div>
-                  <div class="col-sm-5">
-                  <div class="col-sm-2"></div>
+                  <div class="col-sm-2">
+                      <p class='paragraph-card'> This web map was made from Saint Paul’s and Minneapolis’s open data portal and was made on CartoDB. Using the map, you can see traffic stops and population of different races in each census block group of Minneapolis and Saint Paul.</p>
+                      <p class= 'paragraph-card'>This was completed for a group project where my primary responsibility was to visual the Saint Paul traffic stop data. I ended up following and modifying the SQL on <a href='https://carto.com/blog/stacking-chips-a-map-hack/'> this </a> page to stack the traffic stops on top of each other.</p>
+                      <p class= 'paragraph-card'>Click on the image to visit the web map.</p>
+                    </div>
+                  <div class="col-sm-6">
                       <a href= 'https://8501fall2017.carto.com/builder/bd183a1c-a6d9-454d-857e-eea9cc99c876/embed'> <img src="images_website/traffic_stops.PNG" class="rounded float-right" width="100%" alt = 'responsive image'></a>
                   </div>
+                  <div class="col-sm-2"></div>
+
               </div>
 
           </div>
@@ -196,7 +201,7 @@
 <div id="PrecisionContour" class="container-fluid">
         <div class="row spacer row-header">
 
-    <h2 class="centertext">Work Project</h2></div>
+    <h2 class="centertext">Lake Maps: Precision Contour HD</h2></div>
     <div class="row spacer">
         <div class="col-sm-2"></div>
             <div class="col-sm-3">
@@ -211,17 +216,90 @@
 
     </div>
 
-<div id="Resume" class="container-fluid">
+<div id="Experience" class="container-fluid">
         <div class="row spacer row-header">
 
-    <h2 class="centertext">Resume</h2></div>
+    <h2 class="centertext">Experience</h2></div>
+    <div class="row">
+    <div class="col-sm-2"></div>
+
+    <div class= "col-sm-8" style='text-align:center'>
+    <h4 style = 'text-transform:uppercase'> University of Minnesota </h4>
+        <h4> Master of Geographic Information Science</h4>
+        <h4> May 2019</h4>
+    <h4 style = 'text-transform:uppercase'> Hamline University </h4>
+    <h4> Bachelor of Arts, Anthropology</h4>
+    <h4> May 2012</h4></div>
+    <div class="col-sm-2"></div>
+    </div>
+
+
+    <div class='row'>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2 top">
+                    <h4>GIS DATA ANALYST</h4>
+                    <h4>Navico, Minneapolis, MN</h4>
+                    <h4>May 2017 - Current</h4>
+            </div>
+            <div class='col-sm-4 top'>
+                <h4> <ul>
+                        <li>Compile reports using Microsoft SQL Server</li>
+                        <li>Use Python to compute volume and other reports of various lakes </li>
+                        <li>Review aquatic geospatial data uploaded by customers for interpolation precision</li>
+                        <li>Create bathymetry, vegetation, and sediment maps using ArcMap </li>
+                        <li>Edit shapefiles of waterbodies with QGIS</li>
+                      </ul> </h4>
+                
+            </div>
+    </div>
+
+    <div class='row'>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2 top">
+                    <h4>ARCHAEOLOGICAL FIELD DIRECTOR</h4>
+                    <h4>Commonwealth Heritage Group, Milwaukee, WI</h4>
+                    <h4>August 2013-October 2016</h4>
+            </div>
+            <div class='col-sm-4 top'>
+                <h4> <ul>
+                        <li>Lead crews of 1-3 people in archeological surveys in National Forests in MN, WI, and MO and WI DOT road expansion projects</li>
+                        <li>Wrote daily reports of surveys </li>
+                        <li>Analyzed projects, created timelines and daily plans for multiple crews</li>
+                        <li>Communicated with bosses and public about project guidelines</li>
+                        <li>Worked outside in extreme conditions and walked up to 10 miles a day</li>
+                        <li>Mapped sites and navigated with a Trimble GIS unit using Terrasync</li>
+                        <li>Completed archeological site documentation and mapped sites by hand</li>
+
+                      </ul> </h4>
+                
+            </div>
+    </div>
+
+    <div class='row spacer'>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2 top">
+                    <h4>SOLE PROPRIETOR</h4>
+                    <h4>McGraw Archaeological Research</h4>
+                    <h4>2015 - Current</h4>
+            </div>
+            <div class='col-sm-4 top'>
+                <h4> <ul>
+                        <li>Perform literature research for archeological companies located outside of Minnesota at the Minnesota Historical Society, Minnesota Department of Natural Resources, Minnesota SHPO office and Borchert Map Library</li>
+                        <li>Locate archaeological and architecture site files</li>
+                        <li>Find plat maps, aerial maps, topographic, and General Land Office (GLO) maps of areas where survey is to be completed</li>
+                      </ul> </h4>
+                
+            </div>
+    </div>
+    <div class='row spacer'>
+        <div class= 'col-sm-5'></div>
+        <div class='col-sm-2'>
+    <a href="images_website/resume.pdf"><button type="button" class="btn btn-default">Resume (PDF)</button></a>
+</div>
 
 </div>
 
-<div id="GitHub" class="container-fluid">
-        <div class="row spacer row-header">
-
-    <h2 class="centertext">GitHub</h2></div>
+</div>
 
 </div>
 
