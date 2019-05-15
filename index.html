@@ -64,10 +64,28 @@
     border-top: 1px solid #ccc;
 }
 
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 70px;
+}
+
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class='container'>
+      <img src='images_website/top_image1.jpg' style= 'width:100%'>
+  <div class ='centered text-large'> Anna J. McGraw  
+  <h2>GIS Portfolio</h2>
+  </div>
+  </div>
+
+<div class = 'sticky-top'>
+<nav class="navbar navbar-default" data-spy='affix' data-offset-top="700">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -94,14 +112,8 @@
       </div>
     </div>
   </div>
-</nav>    
-
-<div class='container'>
-    <img src='images_website/top_image1.jpg' style= 'width:100%'>
-<div class ='centered text-large'> Anna J. McGraw  
-<h2>GIS Portfolio</h2>
-</div>
-</div>
+</nav>  
+</div>  
 
 <div id="AboutMe" class="container-fluid">
     <div class="row spacer row-header">
