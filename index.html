@@ -37,7 +37,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 0;
 
 }
 
@@ -73,6 +73,10 @@
     padding-top: 70px;
 }
 
+.navZ {
+    z-index: 9999;
+}
+
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -85,7 +89,7 @@
   </div>
 
 <div class = 'sticky-top'>
-<nav class="navbar navbar-default" data-spy='affix' data-offset-top="700">
+<nav class="navbar navbar-default navZ" data-spy='affix' data-offset-top="700">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
